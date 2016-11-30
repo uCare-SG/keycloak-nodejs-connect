@@ -17,5 +17,6 @@
 
 module.exports = function setup (request, response, next) {
   request.kauth = {};
+  request.kcoverrides = request.kcoverrides || {}; // where to add override functions/values
   next();
 };

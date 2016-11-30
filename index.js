@@ -295,6 +295,10 @@ Keycloak.prototype.getGrantFromCode = function (code, request, response) {
     .then(function (grant) {
       self.storeGrant(grant, request, response);
       return grant;
+    })
+    .catch(function(err){
+      // return null so that protected route will be redirected to login page.
+      return null;
     });
 };
 

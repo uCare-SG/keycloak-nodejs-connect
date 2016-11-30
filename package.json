@@ -1,6 +1,6 @@
 {
   "name": "keycloak-connect",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Keycloak Connect Middleware",
   "homepage": "http://keycloak.org",
   "main": "index.js",
@@ -33,7 +33,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "keycloak-auth-utils": "0.1.2"
+    "keycloak-auth-utils": "https://github.com/uCare-SG/keycloak-nodejs-auth-utils/archive/v2.2.2.zip"
   },
   "devDependencies": {
     "express": "^4.13.4",
