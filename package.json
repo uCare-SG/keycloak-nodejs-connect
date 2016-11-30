@@ -33,7 +33,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "keycloak-auth-utils": "https://github.com/uCare-SG/keycloak-nodejs-auth-utils/archive/v2.2.2.zip"
+    "keycloak-auth-utils": "git+https://github.com/uCare-SG/keycloak-nodejs-auth-utils#v2.2.2"
   },
   "devDependencies": {
     "express": "^4.13.4",
